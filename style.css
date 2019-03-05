@@ -35,6 +35,16 @@ body {
 .header hr{
     margin: 0;
 }
+/* COLUMNS FOR PICTURE ----------------------*/
+#profile_pic {
+    width: 300px;
+	float: right;
+	margin: 25px;
+	position: relative;
+	border: #000 solid 3px;
+	padding: 1px;
+	
+}
 
 /* NAVBAR --------------------------------- */
 #navbar{
@@ -49,7 +59,7 @@ body {
 #navbar li{
     float: left;
     padding-bottom: 20px;
-    padding: 0px 30px 0px 80px;
+    padding: 0px 10px 0px 170px;
     color: #4242f4;
 }
 
@@ -74,4 +84,21 @@ a:hover {
 #image-lisense{
 	border: solid #999933 0px;
 	width: 100px;
+}
+
+#footer_pic {
+    width: 1009px;
+    height: 200px;
+	margin: 0 auto;
+	border: 3px solid #000;
+	float: inherit;
+	margin-left: 160px;
+}
+#frankenstein-pic {
+	width: 300px;
+	float: right;
+	margin: 25px;
+	position: relative;
+	border: #000 solid 3px;
+	padding: 1px;
 }
