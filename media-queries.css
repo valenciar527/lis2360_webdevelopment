@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/*CSS Document by RJ Valencia*/
+@media screen and (max-width: 960px) {
+    /* MAIN PAGE AND GENERAL TEMPLATE ------------------------- */
+    .container {
+        width: 90%; /* static width container always stays at this width no matter what the window size */
+    }
+    #navbar li{
+    float: left;
+    padding-bottom: 20px;
+    padding: 0px 5px 0px 140px;
+    color: #4242f4;
+    }
+    #footer_pic {
+    width: 960px;
+    }
+}
+@media screen and (max-width: 880px) {
+    #navbar li{
+    padding: 0px 5px 0px 120px;
+    }
+    .header p{
+    font-size: 0.9em;
+    text-indent: 0px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    p {
+    text-indent: 25px;
+    }
+    #footer_pic {
+    width: 880px;
+    }
+    /* RESUME PAGE ------------------------- */
+    embed {
+        width: 700px;
+        height: 1100px;
+    }
+}
+    
+@media screen and (max-width: 778px) {
+    #navbar li{
+    padding: 0px 20px 0px 90px;
+    }
+    .header p{
+    font-size: 0.9em;
+    text-indent: 0px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    p {
+    text-indent: 25px;
+    }
+    #footer_pic {
+    width: 778px;
+    }
+    /* RESUME PAGE ------------------------- */
+    embed {
+        width: 600px;
+        height: 800px;
+    }
+}
+@media screen and (max-width: 712px) {
+    #navbar li{
+    padding: 0px 15px 0px 70px;
+    }
+    #footer_pic {
+    width: 712px;
+    }
+    /* RESUME PAGE ------------------------- */
+    embed {
+        width: 500px;
+        height: 800px;
+    }
+}
+@media screen and (max-width: 628px) {
+    #navbar li{
+    padding: 0px 15px 0px 60px;
+    }
+    #footer_pic {
+    width: 628px;
+    }
+}
+@media screen and (max-width: 561px) {
+    #navbar li{
+    padding: 0px 1px 0px 40px;
+    }
+    #footer_pic {
+    width: 561px;
+    }
+    /* RESUME PAGE ------------------------- */
+    embed {
+        width: 450px;
+        height: 650px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .header p{
+    font-size: 0.9em;
+    text-indent: 0px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    p {
+    text-indent: 25px;
+    }
+    #footer_pic {
+    width: 480px;
+    }
+    /* RESUME PAGE ------------------------- */
+    embed {
+        width: 425px;
+        height: 600px;
+    }
+}
+@media screen and (max-width: 462px) {
+    #navbar li{
+    padding: 0px 15px 0px 25px;
+    }
+    .header p{
+    font-size: 0.9em;
+    text-indent: 0px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    p {
+    text-indent: 25px;
+    }
+    #footer_pic {
+    width: 462px;
+    }
+    /* RESUME PAGE ------------------------- */
+    embed {
+        width: 400px;
+        height: 550px;
+    }
+}
+@media screen and (max-width: 458px) {
+    #navbar li{
+    padding: 0px 15px 0px 20px;
+    left: 30px;
+    }
+    .header p{
+    font-size: 0.9em;
+    text-indent: 0px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    p {
+    text-indent: 25px;
+    }
+    #footer_pic {
+    width: 458px;
+    }
+    /* RESUME PAGE ------------------------- */
+    embed {
+        width: 350px;
+        height: 525px;
+    }
+}
+@media screen and (max-width: 448px) {
+    #navbar li{
+    padding: 0px 15px 0px 20px;
+    left: 30px;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    #footer_pic {
+    width: 448px;
+    }
+    /* RESUME PAGE ------------------------- */
+    embed {
+        width: 350px;
+        height: 525px;
+    }
+}
+@media screen and (max-width: 414px) {
+    #navbar li{
+    float: left;
+    padding-bottom: 20px;
+    padding: 0px 10px 0px 10px;
+    color: #4242f4;
+    left: 20px;
+    }
+    .header p{
+    font-size: 0.9em;
+    text-indent: 0px;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    p {
+    text-indent: 25px;
+    }
+    td {
+        padding: 5px;
+    }
+    /* RESUME PAGE ------------------------- */
+    embed {
+        width: 325px;
+        height: 500px;
+    }
+}
