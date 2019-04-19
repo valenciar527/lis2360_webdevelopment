@@ -20,9 +20,9 @@
             <h1><a href= "index.html">RJ Valencia: A Website by RJ</a></h1>
             <div id="navbar">
                 <ul>
-                    <li><a href= "projects.html">Projects</a></li>
-                    <li><a href= "resume.html">Resume</a></li>
-                    <li><a href= "originalMusic.html">Original Music</a></li>
+                    <li><a href= "#projects" class = "jquery">Projects</a></li>
+                    <li><a href= "#resume" class = "jquery">Resume</a></li>
+                    <li><a href= "#originalMusic" class = "jquery">Original Music</a></li>
                 </ul>
             </div><!-- End of Navbar div -->
             <hr>
@@ -40,7 +40,7 @@
     <h2><i>Future Prospects</i></h2>
     <p>For my career, I want to become a Web Designer, creating and modifying websites for companies to use. I would also like to be a Quality Assurer, testing and debugging websites to see their weakness in their functionality as well in the code. With my computer expertice, I have given thought to possibly creating educational programs or games as well (possibly as a side-project).</p>
     <p>For my Master's degree, I want to pursue policymaking for Florida school systems. I want to create policies that focuses on individual development, places less focus on standarized tesing, and enforces courses that aid students in understanding how the real world will act and what is expected of them. I will also be focusing on what definitions of what the schools want to produce in their students, such as <q>what is adulthood?</q>, <q>what determines success?</q>. I feel by having solutions to these questions, the focus of schools will be more refined, focusing on what will make students competent for the world; not only socially but intrapersonally. Students will feel confidence how to tackle the world in their own way.</p>
-    <img id= "footer_pic"src="images/nature-05.jpg" alt= "View of the water" align= "middle">
+    <img id= "footer_pic" src="images/nature-05.jpg" alt= "View of the water" align= "middle">
     <h3>Fields of Interest</h3>
     <p>Check out others' great work through the catagories I have provided!</p>
         <table border="5" cellpadding="12" cellspacing="0">
@@ -56,7 +56,45 @@
             </tr>
         </table>
     <hr>
-    <h4>References</h4>
+    <h1 id = "projects">Projects</h1>
+    <h2>Educational Reform</h2>
+    <p>In my Speech Course, we have to talk about a variety of topics. I have taken this oppurtunity to research educational reform and continue to develop my philosophy of teaching and curriculum. For my upcoming Persuasive Speech, I will be discussing a new way how to look at our current elementary, middle and high schools. Instead of just a linear progression for 12 years, I believe each institution is a rite of passage of learning and mastery. </p>
+        <ul>
+            <li>Elementary School is learning how to learn</li>
+            <li>Middle School is learning about the self</li>
+            <li>High School is learning how to play a role in a community</li>
+        </ul>
+    <h2>Creating a Directory for a Company</h2>
+    <p>For the company that my uncle works at (Lumentum LLC), I want to create a contact directory for the employers to use. Working there during the summers, there is a lot of data needed for tax sales, specifically contact information of county treasurers, tax collectors, assessors, etc. To help out, I will create a webpage that functions as a search engine, using MySQL to create a database to store the information. No only that, but employers may also edit information just so they system will be kept to date. </p>
+    <h2>Editing the HackFSU Webpage</h2>
+    <p>Joining HackFSU, I have been giving the task to edit and reconstruct the webpage for FSU's Hackathon registration. Not only does the website need to be polished, but I have to create JSON files, and work with Javascript to make sure the website is functional.</p>
+    <hr>
+    <h1 id = "resume">Resume</h1>
+        <embed src="ICT_Resume-2019.pdf" width="800px" height="1100px" align= "center" />
+    <hr>
+    <h1 id = "originalMusic">Original Music</h1>
+        <h2>The Valencia Watlz (for Saxaphone), 2018</h2>
+        <audio src="audio/The Valencia Watlz.mp3" controls>
+        <p>If you are reading this, it is because your browser does not support the audio element.     </p>
+        </audio>
+        <h2>Through the Eyes of Frankenstein (Art Song for Piano and Voice), 2018</h2>
+        <p><i>Lyrics from "Left Alone" by John Clare</i></p>
+        <audio src="audio/Through the Eyes of Frankenstein!.mp3" controls>
+        <p>If you are reading this, it is because your browser does not support the audio element.     </p>
+        </audio>
+        <img id= "frankenstein-pic" src= "images/Through the Eyes of Frankenstein (Complete)_Page_1.jpg" alt= "Cover of TEOF sheet music" align= "right">
+    <hr>
+        <table cellpadding="10" cellspacing="0" id="size" border= "2px solid">
+            <tr>
+                <td style="background-color:#6699ff;"></td>
+                <td style="background-color:#214473;"></td>
+                <td style="background-color:#f2f2f2;"></td>
+                <td style="background-color:#A0A8C0;"></td>
+                <td style="background-color:#242426;"></td>
+            </tr>
+        </table>
+        <p>This is a Custom Pattern, incorperating different shades of blues, as well as grey and black. I used the th shades of blue to create a grandient effect for the website's background. I chose these colors because they reflect my high school's colors. I have a deep repspect for that school, for that is where I believe I came into the person I am today. Also, these colors are more relaxing and calm, and remind the user of the water like from the beach. I believe these colors help represent the my character well.</p>
+    <h3>References</h3>
     <ul>
         <li><em><a href="https://posey.house.gov/news/documentsingle.aspx?DocumentID=394444" target="_blank"> "Posey Awards Congressional Medal of Merit to Local High School Students | Congressman Bill Posey :: Representing the 8th District of Florida"</a></em></li>
         <li><em><a href="http://www.srhsband.com/" target="_blank">"Sebastian River High School Band - SRHS Band"</a></em></li>
@@ -65,5 +103,18 @@
     </ul>
     <p class="copyright"><img id="image-lisense"src="images/Creative-Commons-Attribution-NonCommercial-ShareAlike-40-International-Public.png" alt="The Creative Commons Licence">&copy;<a href=mailto:valenciar524@gmail.com>Richard Valencia</a></p>
     </div> <!-- End of Container -->
+    
+    <!-- JAVASCRIPT CODE -->
+    <!-- Scrolling navigation script by Geo Miller glmiller@pic.fsu.edu -->  
+    <script src="jquery.js" type='text/javascript'>
+    jQuery(document).ready(function () {
+      jQuery('.jquery').click(function() {
+        targetName = jQuery(this).attr('href');
+        targetLocation = jQuery(targetName).offset().top;
+        jQuery('html, body').animate({scrollTop:targetLocation}, 'slow');
+        return false;
+      });
+    });
+    </script>
 </body>
 </html>

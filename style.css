@@ -2,6 +2,9 @@
 /*Document by RJ Valencia*/
 
 /*GENERAL STYLING ---------------*/
+html {
+    scroll-behavior: smooth;
+}
 p {
     text-indent: 50px;
 }
@@ -61,7 +64,13 @@ body {
     padding: 0px 10px 0px 170px;
     color: #4242f4;
 }
-
+/* SECTIONS ------------------------ */
+.jquery {
+ /* Used for anchor for scrolling effect */
+}
+#projects {}
+#resume {}
+#originalMusic {}
 
 /* LINK STYLES ---------------------------- */
 a:link {
