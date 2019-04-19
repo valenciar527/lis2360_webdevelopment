@@ -16,6 +16,7 @@
     }
 }
 @media screen and (max-width: 880px) {
+    /* MAIN PAGE AND GENERAL TEMPLATE ------------------------- */
     #navbar li{
     padding: 0px 5px 0px 120px;
     }
@@ -40,6 +41,7 @@
 }
     
 @media screen and (max-width: 778px) {
+    /* MAIN PAGE AND GENERAL TEMPLATE ------------------------- */
     #navbar li{
     padding: 0px 20px 0px 90px;
     }
@@ -63,6 +65,7 @@
     }
 }
 @media screen and (max-width: 712px) {
+    /* MAIN PAGE AND GENERAL TEMPLATE ------------------------- */
     #navbar li{
     padding: 0px 15px 0px 70px;
     }
@@ -76,6 +79,7 @@
     }
 }
 @media screen and (max-width: 628px) {
+    /* MAIN PAGE AND GENERAL TEMPLATE ------------------------- */
     #navbar li{
     padding: 0px 15px 0px 60px;
     }
@@ -84,6 +88,7 @@
     }
 }
 @media screen and (max-width: 561px) {
+    /* MAIN PAGE AND GENERAL TEMPLATE ------------------------- */
     #navbar li{
     padding: 0px 1px 0px 40px;
     }
@@ -97,6 +102,7 @@
     }
 }
 @media screen and (max-width: 480px) {
+    /* MAIN PAGE AND GENERAL TEMPLATE ------------------------- */
     .header p{
     font-size: 0.9em;
     text-indent: 0px;
@@ -117,6 +123,7 @@
     }
 }
 @media screen and (max-width: 462px) {
+    /* MAIN PAGE AND GENERAL TEMPLATE ------------------------- */
     #navbar li{
     padding: 0px 15px 0px 25px;
     }
@@ -140,6 +147,7 @@
     }
 }
 @media screen and (max-width: 458px) {
+    /* MAIN PAGE AND GENERAL TEMPLATE ------------------------- */
     #navbar li{
     padding: 0px 15px 0px 20px;
     left: 30px;
@@ -164,6 +172,7 @@
     }
 }
 @media screen and (max-width: 448px) {
+    /* MAIN PAGE AND GENERAL TEMPLATE ------------------------- */
     #navbar li{
     padding: 0px 15px 0px 20px;
     left: 30px;
@@ -181,6 +190,7 @@
     }
 }
 @media screen and (max-width: 414px) {
+    /* MAIN PAGE AND GENERAL TEMPLATE ------------------------- */
     #navbar li{
     float: left;
     padding-bottom: 20px;
