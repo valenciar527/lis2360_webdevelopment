@@ -20,7 +20,6 @@ li {
     color: #fff;
     list-style: none; /* eliminates bullets */
 }
-/* link styles ---------------------------- */
 a:link {
 	font-weight: bold;
 	color: #5C5D72;
