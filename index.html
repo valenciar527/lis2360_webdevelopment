@@ -1,170 +1,317 @@
-<!DOCTYPE html>
-<!--Richard Valencia; Lesson 3 Assignment completed on 2/7/2019 -->
-<!--Richard Valencia; Lesson 4 Assignment completed in 3/4/2019 -->
-<!--Richard Valencia; Lesson 5 Assignment completed in 3/18/2019 -->
-<!--Richard Valencia; Lesson 6 Assignment completed in 4/7/2019 -->
-<!--Richard Valencia; Lesson 7 Assignment completed in 4/20/2019 -->
-<!--Richard Valencia; Lesson 8 Assignment completed in 4/23/2019 -->
-<html>
-<head>
-    <title>RJ Valencia: A Website by RJ</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link href="media-queries.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Farsan' rel='stylesheet'>
-    <style> @import url('https://fonts.googleapis.com/css?family=Domine|Gruppo');</style>
-    <meta charset= "UTF-8">
-    <meta name="description" content="A website about the great and fantastical Richard Joseph Valencia">
-    <meta name="keywords" content="RJ, Richard, Joseph, Valencia, e-portfolio, ICT, Psychology, School, Florida State University">
-    <meta name="author" content="Richard (RJ) Valencia">
-</head>
-<body>
- <section id="Splash" id = "blur-splash">
-    <!--Navigation Bar holds Navigation Buttons -->
-<div id="navbar">
-	<div class="container">  <!-- container keeps everything aligned and centered no matter what the window size -->
-		<ul  id="menu">
-			<!-- button class provides button-like appearance and scrolling javascript (see bottom of html code) -->
-			<li><a href="#Media" class="button">Media</a></li>
-			<li><a href="#Projects" class="button">Projects</a></li>
-			<li><a href="#Table" class="button">Table</a></li>
-   			<li><a href="#Resume" class="button">Resume</a></li>
-   			<li><a href="#OriginalMusic" class="button">Original Music</a></li>
-		</ul>
-	</div> <!-- end container -->
-</div> <!-- end navbar -->
-<div id="title-page">
-    <div class="container"></div>
-        <h1>RJ Valencia <br>A Website by RJ</h1>
-        <h2><q><i>I don't need you to respect me, I respect me. I don't need you to love me, I love me. But I want you to know you could know me, if you change your mind.</i></q></h2>
-            <h2>- Steven Universe from Rebecca Sugar's <em>Steven Universe</em></h2>
-     </div><!-- end container -->
-</div><!-- end title-page -->
-  </section>
-  <section id="Overview">
-    <div class="container">
-    <img id= "picture-special" src= "images/portfolio1.jpg" alt= "Portfolio of the author of the website, RJ Valencia.">
-    <h2><i>Introduction</i></h2>
-    <p>My name is Richard Joseph Valencia, but I go by RJ. I am 20-years old, a Florida State University Sophomore working towards aquiring my Bachelors in computers (Information, Comunication, and Technology) with a minor in Psychology. This is my e-portfolio decitcating to exhibit my prowness in many different fields and ideologies. Here I will display some of my many works, updating the page with new articles, ideas, and synopses for projects I have worked on. I will also set up links to videos, art and content I think are worthwhile from many talented and thought-provoking creators.</p>
-    <h2><i>History</i></h2>
-    <p>I was born in Vero Beach, Florida in 1999. I have lived in the sister town called Sebastian for all of my life, a quiet town on the Eastern coast of Florida. I had a lot influence on what my career could be from my family; my mother and grandfather were psychologists, and my father and uncle were programmers. I took a different route, for in my middle school days, I became heavily involved in the world of music during my middle school years, playing percussion in a concert band. This gave me a great sense of joy and pride, and this would continue into high school.</p>
-    <p>Sebastian River High School is when I started to develop my sense of self, individual resonsiblity and intergity. I had always strive to do well in school, but with IB and music, I wanted to excel, so I had to learn how to juggle both to perform well while keeping myself healthy. From that, I had accomplished so much: I became one of the top-perfomring muscicians in the band program, became an assistant section leader, received various band awards for my leadership and musical performaces, and received the Bill Posey Congressional Medal of Merit in 2017. This award was given to a senior who exemplified a role-model student, demonstraing academic responsibility and leadership. </p>
-    <p>Finally, I graduated with my IB Diploma and high GPA, as well as being accepted to Florida State University. Though I do not engage in a music major in college, it was because of the discipline of band that I have arrived to where I am now. I continue to strive to be one of the best in ICT and Psychology, learning more about responsibility and striving to make something out of myself in the world.</p>
-    <h2><i>Future Prospects</i></h2>
-    <p>For my career, I want to become a Web Designer, creating and modifying websites for companies to use. I would also like to be a Quality Assurer, testing and debugging websites to see their weakness in their functionality as well in the code. With my computer expertice, I have given thought to possibly creating educational programs or games as well (possibly as a side-project).</p>
-    <p>For my Master's degree, I want to pursue policymaking for Florida school systems. I want to create policies that focuses on individual development, places less focus on standarized tesing, and enforces courses that aid students in understanding how the real world will act and what is expected of them. I will also be focusing on what definitions of what the schools want to produce in their students, such as <q>what is adulthood?</q>, <q>what determines success?</q>. I feel by having solutions to these questions, the focus of schools will be more refined, focusing on what will make students competent for the world; not only socially but intrapersonally. Students will feel confidence how to tackle the world in their own way.</p>
-  </section>
-  <section id="Media">
-    <div class="container">
-        <h2><em>Media</em></h2>
-           <br>
-            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=GhswH1bLMy8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div><!--end container -->
-  </section>
-  <section id="Projects">
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/carousel/">
+
+
+    <title>World of Western Percussion</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+        <style>
+          .navbar-inverse {
+            background-color: #214473;
+            border-color: #2C3341;
+        }
+          .navbar-inverse .navbar-nav>li>a {
+            color: #A0A8C0;
+        }
+        .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+            color: #fff;
+            background-color: #2C3341;
+        }
+        .navbar-inverse .navbar-brand {
+            color: #fff;
+        }
+        .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+            color: #fff;
+            background-color: #2C3341;
+        }
+        .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 1000;
+            display: none;
+            float: left;
+            min-width: 160px;
+            padding: 5px 0;
+            margin: 2px 0 0;
+            font-size: 14px;
+            text-align: left;
+            list-style: none;
+            background-color: #2C3341;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+            border: 1px solid #ccc;
+            border: 1px solid rgba(0,0,0,.15);
+            border-radius: 4px;
+            -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+            box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    }
+      .dropdown-menu>li>a {
+        display: block;
+        padding: 3px 20px;
+        clear: both;
+        font-weight: 400;
+        line-height: 1.42857143;
+        color: #fff;
+        white-space: nowrap;
+    }
+    @media (min-width: 768px){
+    .navbar-wrapper .navbar {
+        border-radius: 30px;
+      }
+      .navbar-wrapper {
+        margin-top: 0px;
+      }
+    }
+    .carousel-inner > .item > img {
+        height: auto;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: #214473;
+        border-color: #2C3341;
+    }
+    @media (max-width: 899px){
+      .carousel {
+        height: 400px;
+        margin-bottom: 60px;
+      }
+      .carousel .item {
+        height: 400px;
+        background-color: #fff;
+      }
+    }
+    @media (max-width: 719px){
+      .carousel {
+        height: 400px;
+        margin-bottom: 60px;
+      }
+      .carousel-inner > .item > img {
+        height: 400px;
+        width: 719px;
+        max-width: 719px;
+      }
+    }
+    .carousel-caption {
+        color: #E5E5E5;
+    }
+
+    </style>
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
       <div class="container">
-          <h1>Projects</h1>
-            <h2>Educational Reform</h2>
-            <p>In my Speech Course, we have to talk about a variety of topics. I have taken this oppurtunity to research educational reform and continue to develop my philosophy of teaching and curriculum. For my upcoming Persuasive Speech, I will be discussing a new way how to look at our current elementary, middle and high schools. Instead of just a linear progression for 12 years, I believe each institution is a rite of passage of learning and mastery. </p>
-                <ul>
-                    <li>Elementary School is learning how to learn</li>
-                    <li>Middle School is learning about the self</li>
-                    <li>High School is learning how to play a role in a community</li>
-                </ul>
-            <h2>Creating a Directory for a Company</h2>
-            <p>For the company that my uncle works at (Lumentum LLC), I want to create a contact directory for the employers to use. Working there during the summers, there is a lot of data needed for tax sales, specifically contact information of county treasurers, tax collectors, assessors, etc. To help out, I will create a webpage that functions as a search engine, using MySQL to create a database to store the information. No only that, but employers may also edit information just so they system will be kept to date. </p>
-            <h2>Editing the HackFSU Webpage</h2>
-            <p>Joining HackFSU, I have been giving the task to edit and reconstruct the webpage for FSU's Hackathon registration. Not only does the website need to be polished, but I have to create JSON files, and work with Javascript to make sure the website is functional.</p>
-      </div><!--end container -->
-  </section>
-  <section id="Table">
-    <div class="container">
-        <h2><em>Table</em></h2>
-            <p>Check out others' great work through the catagories I have provided!</p>
-                <table border="5" cellpadding="12" cellspacing="0">
-                    <tr>
-                        <td>Music Theory/Compositions</td>
-                        <td>Self-Education</td>
-                        <td>Drumming (Percussion) Videos</td>
-                    </tr>
-                    <tr>
-                        <td>Analysis on Works of Art</td>
-                        <td>Thought-Provoking Stuff</td>
-                        <td>Bopping Jams</td>
-                    </tr>
-                </table>
-    </div><!--end container -->
-  </section>
-  <section id="Resume">
-    <div class="container">
-        <h2><em>Resume</em></h2>
-           <embed src="ICT_Resume-2019.pdf" width="800px" height="1100px" align= "center" />
-    </div><!--end container -->
-  </section>
-  <section id="OriginalMusic">
-    <div class="container">
-        <h2><em>Original Music</em></h2>
-           <h2>The Valencia Watlz (for Saxaphone), 2018</h2>
-                <audio src="audio/The Valencia Watlz.mp3" controls>
-                <p>If you are reading this, it is because your browser does not support the audio element.     </p>
-                </audio>
-                <h2>Through the Eyes of Frankenstein (Art Song for Piano and Voice), 2018</h2>
-                <p><i>Lyrics from "Left Alone" by John Clare</i></p>
-                <audio src="audio/Through the Eyes of Frankenstein!.mp3" controls>
-                <p>If you are reading this, it is because your browser does not support the audio element.     </p>
-                </audio>
-                <img id= "frankenstein-pic" src= "images/Through the Eyes of Frankenstein (Complete)_Page_1.jpg" alt= "Cover of TEOF sheet music" align= "right">
-                <hr>
-                <table cellpadding="10" cellspacing="0" id="size" border= "2px solid">
-                    <tr>
-                        <td style="background-color:#6699ff;"></td>
-                        <td style="background-color:#214473;"></td>
-                        <td style="background-color:#f2f2f2;"></td>
-                        <td style="background-color:#A0A8C0;"></td>
-                        <td style="background-color:#242426;"></td>
-                    </tr>
-                </table>
-    </div><!--end container -->
-  </section>
-  <section id="Footer">
-    <div class="container">
-        <h3>References</h3>
-        <p>
-            <ul>
-                <li><em><a href="https://posey.house.gov/news/documentsingle.aspx?DocumentID=394444" target="_blank"> "Posey Awards Congressional Medal of Merit to Local High School Students | Congressman Bill Posey :: Representing the 8th District of Florida"</a></em></li>
-                <li><em><a href="http://www.srhsband.com/" target="_blank">"Sebastian River High School Band - SRHS Band"</a></em></li>
-                <li><em><a href="http://rjv.sgedu.site/cgs2821/project11/" target="_blank">"The Stigmas of Mental Health" (my website I created for the last web design class)</a></em></li>
-                <li><em><a href="https://www.youtube.com/watch?v=oI8xbZ6N3MI" target="_blank">Quote Source: "Change Your Mind"</a></em></li>
-            </ul>
-        </p>
-        </style>
-    <div id="footer">
-     <hr>
-       <table cellpadding="10" cellspacing="0" id="size">
-                <tr>
-                    <td style="background-color:#6699ff;"></td>
-                    <td style="background-color:#214473;"></td>
-                    <td style="background-color:#f2f2f2;"></td>
-                    <td style="background-color:#A0A8C0;"></td>
-                    <td style="background-color:#242426;"></td>
-                </tr>
-             </table>
-        <p class="copyright"><img id="image-lisense"src="images/Creative-Commons-Attribution-NonCommercial-ShareAlike-40-International-Public.png" alt="The Creative Commons Licence">&copy;<a href=mailto:valenciar524@gmail.com>Richard Valencia</a></p>
-    </div><!-- end footer -->    
-    </div><!--end container -->
-  </section>
-  <!-- JAVASCRIPT CODE -->
-<!--jquery required for scrolling effect -->
-<script src="js/jquery.js"></script>
-<!-- Scrolling navigation script by Geo Miller glmiller@pic.fsu.edu -->  
-<script type='text/javascript'>
-jQuery(document).ready(function () {
-  jQuery('.button').click(function() {
-    targetName = jQuery(this).attr('href');
-    targetLocation = jQuery(targetName).offset().top;
-    jQuery('html, body').animate({scrollTop:targetLocation}, 'slow');
-    return false;
-  });
-});
-</script>
-</body>
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">World of Western Percussion</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Instruments</a></li>
+                <li><a href="#">Ensembles</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Literature <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Classical</a></li>
+                    <li><a href="#">Postmodern and Modern</a></li>
+                    <li><a href="#">Solos</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Ensembles</li>
+                    <li><a href="#">Jazz</a></li>
+                    <li><a href="#">Steel Pans</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="Lesson8Images/3.1.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Get to Know the Instruments</h1>
+              <p>There so many percussion instruments to play! Get to know them all!</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="Lesson8Images/3.2.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>History of Percussion</h1>
+              <p>Let's see where the rhythm section comes from!</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="Lesson8Images/3.3.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Wanna See Something Cool?</h1>
+              <p>Check out some amaxing examples of percussion literature you have never heard of.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Listen</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="Lesson8Images/3.4.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Want to play percussion?</h1>
+              <p>Click the link below to get some free exercises to begin your journey!</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">See Exercises</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="Lesson8Images/2.5.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Concert Snare</h2>
+          <p>Learn about the most recognized yet unknown percussion instrument; the representation of concert percussion.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="Lesson8Images/2.7.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Mallets</h2>
+          <p>Percussion is not all about drums; mallets allow for melodic variation with the rhythmic and rudimental complexity of percussion. Learn all about the different instruments of this underated section of percussion.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="Lesson8Images/2.6.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Timpani</h2>
+          <p>One of the greatest percussion instruments of the concert and orchestra band; learn about the thunderous power of the timpani.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Practicing</h2>
+          <p class="lead">To get good at anything, you need to commit to practice. With percussion, that's no expection, especially since there are so many instruments to learn. What's most important is to learn the fundamental rudiments of drums and mallets. Having those skills under your belt will allow to transfer those skills across many instruments to play.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="Lesson8Images/2.8.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Performance</h2>
+          <p class="lead">There are hundreds and thousands of percussion ensemble that perform. Not just in bands and orchestras, but actually shows of instruments. Famous examples are like "Stomp" and the Blue Man Group. They incorperate different percussion instruments and techniques that are not common to the main stream, but always strive to improve their show, and enterain the masses.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="Lesson8Images/2.9.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">The Drum Set
+          <p class="lead">The most recognized percussion instrument, besides the piano (it's true; check it out!). Though the instrument dictates the tempo of a group, the other purpose of the drum set is to determine the style of the music playing. With that midset, some crazy fun music can be made through the drum set.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="Lesson8Images/2.10.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p><img style = "height: 40px;" id="image-lisense" src="Lesson8Images/logo.png" alt="The Creative Commons Licence">&copy;<a href=mailto:valenciar524@gmail.com>Richard Valencia</a> &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>');</script>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    
+    <script src="js/holder.min.js"></script>
+    
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
